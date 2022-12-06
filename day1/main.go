@@ -24,7 +24,10 @@ func main() {
 
 	calorieList := getCalorieCountFromFile(calorieFilePath)
 
+	fmt.Println("PART 1")
 	getElfWithHigestCalorieCount(calorieList)
+
+	fmt.Println("PART 2")
 	getTopElvesWithHigestCalorieCount(calorieList, amountOfElvesToGet)
 
 	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
